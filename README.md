@@ -7,14 +7,15 @@ This is a demo of using factor model analyze crypto market in 2023-2024.
 
 
 # Installation
-1. Create a venv folder for all dependencies
+1. Clone this git to a local folder and CD into it
+2. Create a venv folder for all dependencies
 `python -m venv "venv"`
-2. Activate it 
+3. Activate it 
 `source venv/bin/activate`  (linux/mac)
 `./venv/scripts/activate`   (Windows)
-3. Install the dependencies
+4. Install the dependencies
 `python -m pip install -r requirements.txt`
-4. Setup Jupyter Notebook Environment
+5. Setup Jupyter Notebook Environment
 ```
 source venv/bin/activate
 pip install jupyter
@@ -22,8 +23,8 @@ pip install ipython && pip install ipykernel
 ipython kernel install --user --name=factor-model
 python -m ipykernel install --user --name=factor-model
 ```
-5. Select the kernel factor-model in Jupyter
-6. Open one of the notebooks and take a look
+6. Select the kernel factor-model in Jupyter
+7. Open one of the notebooks and take a look
 
 
 # Factor Model
