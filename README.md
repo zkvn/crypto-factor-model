@@ -7,9 +7,13 @@ This is a demo of using factor model analyze crypto market in 2023-2024.
 
 
 # Installation
-1. Create a venv folder for all dependencies python -m venv "venv"
-2. Activate it source venv/bin/activate (linux/mac) ./venv/scripts/activate (Windows)
-3. Install the dependencies python -m pip install -r requirements.txt
+1. Create a venv folder for all dependencies
+`python -m venv "venv"`
+2. Activate it source 
+`source venv/bin/activate`  (linux/mac)
+`./venv/scripts/activate`   (Windows)
+3. Install the dependencies
+`python -m pip install -r requirements.txt`
 4. Setup Jupyter Notebook Environment
 ```
 source venv/bin/activate
