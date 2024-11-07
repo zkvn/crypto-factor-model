@@ -7,8 +7,10 @@ This is a demo of using factor model analyze crypto market in 2023-2024.
 
 
 # Installation
-1. Install pip libraries
-2. Setup Jupyter Notebook Environment
+1. Create a venv folder for all dependencies python -m venv "venv"
+2. Activate it source venv/bin/activate (linux/mac) ./venv/scripts/activate (Windows)
+3. Install the dependencies python -m pip install -r requirements.txt
+4. Setup Jupyter Notebook Environment
 ```
 source venv/bin/activate
 pip install jupyter
@@ -16,17 +18,18 @@ pip install ipython && pip install ipykernel
 ipython kernel install --user --name=factor-model
 python -m ipykernel install --user --name=factor-model
 ```
-3. Select the kernel factor-model in Jupyter
+5. Select the kernel factor-model in Jupyter
+6. Open one of the notebooks and take a look
 
 
 # Factor Model
 - Market factor: a market cap weighted index of SPY and a few selected crypto
-- Momentum factor: weekly returns of a winner crypto portfolio mins a loser portfolio
 - Macro factors
     - VIX Implied volaility of SPX options
     - XAU Gold price 
     - DXY Dollar index
     - Interest Rates
+- (TODO )Momentum factor: weekly returns of a winner crypto portfolio mins a loser portfolio
 
 # Future study
 - Machine learning approach cross-validation for some parameters
@@ -45,6 +48,7 @@ This pickle file is from yahoo, the ticker is SPY, and it has OHLC data
 
 # Error Handling
 1. In lib.data_gecko.py file, if response from CoinGecko doesn't have status_code 200 for a coin, then it will skip to next coin
+
 
 # Reference
 [Get Historical MarketPrice from CoinGecko in Python](https://github.com/kirancshet/Get-Crypto-Historic-Chart-CoinGecko)
